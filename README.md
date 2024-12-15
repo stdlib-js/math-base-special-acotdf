@@ -35,14 +35,32 @@ limitations under the License.
 
 > Compute the [arccotangent][arccotangent] in degrees of a single-precision floating-point number.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-acotdf
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import acotdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acotdf@deno/mod.js';
+var acotdf = require( '@stdlib/math-base-special-acotdf' );
 ```
 
 #### acotdf( x )
@@ -50,7 +68,7 @@ import acotdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acot
 Computes the [arccotangent][arccotangent] (in degrees) of a single-precision floating-point number.
 
 ```javascript
-import sqrtf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sqrtf@deno/mod.js';
+var sqrtf = require( '@stdlib/math-base-special-sqrtf' );
 
 var v = acotdf( 0.0 );
 // returns 90.0
@@ -79,8 +97,8 @@ v = acotdf( NaN );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import acotdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acotdf@deno/mod.js';
+var linspace = require( '@stdlib/array-base-linspace' );
+var acotdf = require( '@stdlib/math-base-special-acotdf' );
 
 var x = linspace( -1.0, 1.0, 100 );
 
@@ -148,7 +166,7 @@ float stdlib_base_acotdf( const float x );
 
 int main( void ) {
     const float x[] = { 1.0f, 1.45f, 1.89f, 2.33f, 2.78f, 3.22f, 3.66f, 4.11f, 4.55f, 5.0f };
-    
+
     float v;
     int i;
     for ( i = 0; i < 10; i++ ) {
@@ -183,7 +201,7 @@ int main( void ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
