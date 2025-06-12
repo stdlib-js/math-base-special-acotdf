@@ -188,6 +188,13 @@ int main( void ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/math-base/special/acotd`][@stdlib/math/base/special/acotd]</span><span class="delimiter">: </span><span class="description">compute the arccotangent (in degrees) of a double-precision floating-point number.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/acotf`][@stdlib/math/base/special/acotf]</span><span class="delimiter">: </span><span class="description">compute the inverse cotangent of a single-precision floating-point number.</span>
+
 </section>
 
 <!-- /.related -->
@@ -267,6 +274,10 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [arccotangent]: https://en.wikipedia.org/wiki/Inverse_trigonometric_functions
 
 <!-- <related-links> -->
+
+[@stdlib/math/base/special/acotd]: https://github.com/stdlib-js/math-base-special-acotd
+
+[@stdlib/math/base/special/acotf]: https://github.com/stdlib-js/math-base-special-acotf
 
 <!-- </related-links> -->
 
