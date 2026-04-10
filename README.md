@@ -147,7 +147,7 @@ float out = stdlib_base_acotdf( 0.0f );
 // returns 90.0f
 
 out = stdlib_base_acotdf( 3.0f );
-// returns ~30.0f
+// returns 18.43495f
 ```
 
 The function accepts the following arguments:
