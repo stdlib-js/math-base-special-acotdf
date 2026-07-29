@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`197895d`](https://github.com/stdlib-js/stdlib/commit/197895d4f29ba3e97b3ae0573eb726741ec89131) - **test:** migrate `math/base/special/acotdf` to ULP-based testing [(#13740)](https://github.com/stdlib-js/stdlib/pull/13740) _(by Ujjwal Verma)_
 -   [`9229dd7`](https://github.com/stdlib-js/stdlib/commit/9229dd78fa82c5f863dbc51a9588314d53a97c44) - **bench:** refactor to use string interpolation in `math/base/special` [(#11386)](https://github.com/stdlib-js/stdlib/pull/11386) _(by Karan Anand)_
 -   [`35566af`](https://github.com/stdlib-js/stdlib/commit/35566af0add64775e60422fd16e50e1bec3947e7) - **docs:** fix C examples in READMEs [(#11229)](https://github.com/stdlib-js/stdlib/pull/11229) _(by anee3, Athan Reines)_
 -   [`4fb4995`](https://github.com/stdlib-js/stdlib/commit/4fb49958095bee6d0cfee8b5d63fcfdf94f87e6e) - **docs:** fix missing and malformed section tags in README files _(by Philipp Burckhardt)_
@@ -26,11 +27,12 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
 -   Philipp Burckhardt
+-   Ujjwal Verma
 -   anee3
 
 </section>
